@@ -20,13 +20,13 @@ Try our [YouTube commenter](https://share.streamlit.io/iddoroshenko/youtube_comm
 * Training time - 5h (trainer), 87h (custom_train)
 * GPU - Nvidia-GTX 2070
 * Experimets:
-    * Stupid - without exra symbols + lower case  
-    * Smart - with exra symbols + origin case 
+    * Clean - without exra symbols + lower case  
+    * Dirty - with exra symbols + origin case 
 * Results
     | Exp    | TrainLoss | TestLoss | Perplexity |
     |--------|-----------|----------|------------|
-    | Stupid | 2.128     | 2.133    | 8.44       |
-    | Smart  | 2.362     | 2.335    | 10.23      |
+    | Clean | 2.128     | 2.133    | 8.44       |
+    | Dirty  | 2.362     | 2.335    | 10.23      |
 
 ## Run streamlit
 
